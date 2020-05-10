@@ -9,7 +9,7 @@ p {
   padding: 20px;
 }
 
-a {
+.container a {
   text-decoration: none;
   display: inline-block;
   padding: 3px 5px;
