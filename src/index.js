@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import Logo from './Logo';
 import GitHubBadge from './GitHubBadge';
 import './style.css';
-import jsbookmarks from './const';
+import jsBookmarks from './const';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           拖拽下面的 <a>书签</a> 到你的书签栏，点击调用，Try it！🦄
         </p>
         <ul>
-          {jsbookmarks.map(bookmark => (
+          {jsBookmarks.map(bookmark => (
             <li key={bookmark.name}>
               <a href={bookmark.code}>{bookmark.name}</a>
               <span>：{bookmark.desc}</span>

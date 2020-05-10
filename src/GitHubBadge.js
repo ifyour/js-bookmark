@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function GitHubBage({ slug, width = 36, height = 36, fill = 'black' }) {
+export default function GitHubBadge({ slug, width = 36, height = 36, fill = 'black' }) {
   const style = {
     position: 'fixed',
     top: '1rem',
