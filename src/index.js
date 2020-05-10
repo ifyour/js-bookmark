@@ -1,10 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
-import './style.css';
 import Logo from './Logo';
 import GitHubBadge from './GitHubBadge';
-import jsbookmarks from './data';
+import './style.css';
+import jsbookmarks from './const';
 
 function App() {
   return (

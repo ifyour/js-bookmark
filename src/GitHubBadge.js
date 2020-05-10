@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './style.css';
-
 export default function GitHubBage({ slug, width = 36, height = 36, fill = 'black' }) {
   const style = {
     position: 'fixed',
@@ -11,8 +9,9 @@ export default function GitHubBage({ slug, width = 36, height = 36, fill = 'blac
   };
   return (
     <a
+      href={`https://github.com/${slug}`}
       rel="noopener noreferrer"
-      style={style} href={`https://github.com/${slug}`}
+      style={style}
       target="_blank"
     >
       <svg id="i-github" viewBox="0 0 64 64" width={height} height={width}>
