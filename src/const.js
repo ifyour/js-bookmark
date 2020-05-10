@@ -2,7 +2,7 @@
 
 const data = [
   {
-    name: 'debugge-css',
+    name: 'css-debugger',
     desc: '快速调试 CSS 代码',
     source: `
       !window.isDebugging && (window.isDebugging = false);
