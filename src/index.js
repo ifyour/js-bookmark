@@ -1,14 +1,14 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+import React from 'react';
+import { render } from 'react-dom';
 
-import "./style.css";
-import Logo from "./Logo";
-import jsbookmarks from "./data";
+import './style.css';
+import Logo from './Logo';
+import jsbookmarks from './data';
 
 function App() {
   return (
     <div className="container">
-      <Logo name="JS BOOKMARK" />
+      <Logo name="🔖 JS BOOKMARK" />
       <p>
         拖拽下面的 <a>书签</a> 到你的书签栏，点击调用，Try it！🦄
       </p>
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-render(<App />, document.getElementById("root"));
+render(<App />, document.getElementById('root'));

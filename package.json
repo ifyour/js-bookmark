@@ -12,7 +12,12 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
+  "eslintConfig": {
+    "extends": "eslint-config-ifyour"
+  },
   "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-ifyour": "^1.0.6",
     "react-scripts": "latest"
   },
   "browserslist": {

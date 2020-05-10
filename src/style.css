@@ -1,4 +1,5 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
 }
 
@@ -8,12 +9,11 @@ h1, p {
   padding: 20px;
 }
 
-
 a {
   text-decoration: none;
   display: inline-block;
   padding: 3px 5px;
-  font: 11px SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;
